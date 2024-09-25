@@ -315,7 +315,7 @@
 
 .step {
   flex-basis: 220px;
-  gap: 40px;
+  row-gap: 40px;
 }
 
 .step__title {
@@ -337,21 +337,31 @@
 
 .footer {
   box-sizing: border-box;
+  background-color: #1f1f1f;
+  color: #fff;
+  padding: 60px 80px;
 }
 
 .footer__columns {
+  display: flex;
 }
 
 .footer__column_content_hours {
+  margin-left: auto;
 }
 
 .footer__column_content_social {
+  margin-left: 80px;
 }
 
 .footer__logo {
+  width: 58px;
+  height: 80px;
 }
 
 .footer__column-heading {
+  font-size: 16px;
+  margin-bottom: 20px;
 }
 
 .footer__list {
@@ -362,15 +372,20 @@
 }
 
 .footer__list-item {
+  font-size: 16px;
 }
 
 .footer__column-link {
   color: white;
   text-decoration: none;
+  text-align: center;
 }
 
 .footer__social-icon {
+  max-width: 16px;
+  max-height: 16px;
 }
 
 .footer__copyright {
+  margin-top: 100px;
 }
