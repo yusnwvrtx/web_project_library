@@ -309,13 +309,13 @@
   list-style-type: none;
   padding: 0;
   margin: 100px auto;
+  column-gap: 40px;
   display: flex;
   justify-content: center;
 }
 
 .step {
   flex-basis: 220px;
-  row-gap: 40px;
 }
 
 .step__title {
@@ -376,9 +376,11 @@
 }
 
 .footer__column-link {
+  display: flex;
+  align-items: center;
   color: white;
   text-decoration: none;
-  text-align: center;
+  column-gap: 10px;
 }
 
 .footer__social-icon {
