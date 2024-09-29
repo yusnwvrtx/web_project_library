@@ -308,7 +308,7 @@
 .membership__steps {
   list-style-type: none;
   padding: 0;
-  margin: 100px auto;
+  margin: 100px 0 0;
   column-gap: 40px;
   display: flex;
   justify-content: center;
@@ -386,7 +386,7 @@
 .footer__social-icon {
   width: 16px;
   height: 16px;
-  padding-right: 10px;
+  margin-right: 10px;
 }
 
 .footer__copyright {
