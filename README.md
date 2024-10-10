@@ -1,1 +1,1 @@
-Projeto de uma página de acesso feito em HTML e CSS.
+Projeto de uma página de acesso para a Biblioteca Triple Peaks feito em HTML e CSS.
